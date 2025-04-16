@@ -18,11 +18,14 @@ To write a program to predict the type of species of the Iris flower using the S
 5.Evaluate Model: Predict the target values for the test set, calculate accuracy, and print the confusion matrix to assess the model's performance. 
 
 ## Program:
+```
 /*
 Program to implement the prediction of iris species using SGD Classifier.
 Developed by: MUGIL RAJ S A
 RegisterNumber: 212223220062
-
+*/
+```
+```
 import pandas as pd
 from sklearn.datasets import load_iris
 from sklearn.linear_model import SGDClassifier
@@ -50,7 +53,7 @@ print(cm)
 
 classification_report1=classification_report(y_test,y_pred)
 print(classification_report1)
-*/
+```
 ## Output:
 
 ![image](https://github.com/user-attachments/assets/4a789ef8-c112-45a7-b5b8-ef461dd612b2)
